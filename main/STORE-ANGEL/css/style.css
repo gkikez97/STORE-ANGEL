@@ -2,6 +2,7 @@ body {
     padding: 0;
 }
 
+
 .header {
   position: relative;
   text-align: center;
@@ -10,6 +11,8 @@ body {
   text-indent: 0%;
   padding: 0 0 100px 0;
   margin-bottom: 0%;
+  border-color: white white black white;
+  border-style: solid;
 }
 
 .container{
