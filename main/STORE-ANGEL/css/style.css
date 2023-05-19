@@ -1,151 +1,66 @@
-body {
-    padding: 0px;
-    width: 99%;
+
+@media only screen and (max-width: 900px) {
+  body {
+  background-color: black;
 }
 
-.header {
-  position: relative;
+.header{
+  position:relative;
+  color: white;
+  font-family: 'Anton', sans-serif;
   text-align: center;
-  font-family: 'Libre Bodoni', serif;
-  font-size: 25px;
-  text-indent: 0%;
-  padding: 0 0 100px 0;
-  margin-bottom: 0%;
-  border-color: white white black white;
-  border-style: solid;
+  letter-spacing: 5px;
 }
 
-.container{
-  display: inline-block;
-  margin-left: 50%;
+#image-1{
+  position: absolute;
+  display:block;
+  top: 0%;
 }
 
-h1{
-  font-family: 'Libre Bodoni', serif;
-  font-size: 48px;
-}
-
-li {
-font-family: 'Libre Bodoni', serif;
-color: rgb(0, 0, 0);
-font-size: 14px;
-list-style-type: none;
-}
-
-ul {
-  position: relative;
-  top: 60px;
-  display: inline-block;
-  margin-top: 0%;
-  padding: 0px;
-  width: 30%;
-}
-
-list{
+nav{
   text-align: center;
-  
-}
-
-.img-box-1{
-position: relative;
-margin-top: 20%;
-right: 0%;
-width: 900px;
-float: left;
-padding: 0px;
-}
-
-.img-box-2{
-  position: relative;
-  margin-top: 20%;
-  right: 9.5%;
-  width: 900px;
-  float: left;
-  padding: 0px;
-}
-
-.img-box-3{
-  position: relative;
-  margin-top: 0%;
-  left: 10%;
-  bottom: 953px;
-  width: 900px;
-  float: right;
-  padding: 0px;
-}
-
-#VINTAGE h2{
-  position: relative;
-  font-size: 50px;
-  font-family: 'Covered By Your Grace', cursive;
-  color: black;
-}
-
-#VINTAGE {
-  position: absolute;
-  top: 65%;
-}
-
-img{
-  position: relative;
-  margin-top: 12%;
-  width: 250%;
-  height: 900px;
-}
-
-h2 {
- position: absolute;
- top: 80%;
- left: 20px;
- color: rgb(255, 255, 255);
- font-family: 'Covered By Your Grace', cursive;
- font-size: 40px;
-
-}
-
-button {
-  position: absolute;
-  top: 90%;
-  left: 20px;
-  color:rgb(255, 255, 255);
   font-size: 20px;
-  border-radius: 10px;
-  width: 25%;
-  background-color:rgb(0, 0, 0)
-}
-
-button:hover {
-  transition: ease-in-out .10s;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-}
-
-.tablink {
-  background-color: #555;
   color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  font-family: 'Anton', sans-serif;
 }
 
-.tablink:hover {
-  background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
+body {
+  background-color: black;
+}
+
+.header{
+  position:relative;
   color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#image-1{
+  position: absolute;
+  display:block;
+  top: 0%;
+}
+
+.tabs{
+  position: absolute;
+  display:flexbox;
+  inline-size: 0%;
+  margin-inline-start: 0%;
+  
+  left:0%;
+  top: 20%;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Fugaz One', cursive;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
